@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18db6a10-3043-4fe0-8e7c-5fbbbc64462a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LotOwner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AirportSecurity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootcampdriverprob/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootcampdriverprob/Auditor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootcampdriverprob/Driver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootcampdriverprob/InsufficientFundsException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootcampdriverprob/Owner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bootcampdriverprob/LotOwner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bootcampdriverprob/LotOwner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/bootcampdriverprob/ParkingLot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bootcampdriverprob/ParkingLot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/bootcampdriverprob/AccountTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/bootcampdriverprob/ParkingLotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/bootcampdriverprob/ParkingLotTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auditor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsufficientFundsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingLotProblem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parkingLotProblem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LotOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LotOwner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/AccountTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DriverTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ParkingLotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ParkingLotTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParkingLot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="25" column="9" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="239">
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,10 +39,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/ParkingLotTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="90" column="70" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
+            <state relative-caret-position="-999">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AirportSecurity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding>
+                <element signature="e#68#69#0" expanded="true" />
+                <element signature="e#95#96#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,11 +73,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LotOwner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="75">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding>
                 <element signature="e#61#62#0" expanded="true" />
                 <element signature="e#88#89#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,18 +127,20 @@
         <option value="$PROJECT_DIR$/test/DriverTest.java" />
         <option value="$PROJECT_DIR$/src/ParkingLotTicket.java" />
         <option value="$PROJECT_DIR$/src/TicketNotFound.java" />
-        <option value="$PROJECT_DIR$/src/LotOwner.java" />
         <option value="$PROJECT_DIR$/src/Driver.java" />
+        <option value="$PROJECT_DIR$/src/LotOwner.java" />
+        <option value="$PROJECT_DIR$/src/AirportSecurity.java" />
         <option value="$PROJECT_DIR$/src/ParkingLot.java" />
         <option value="$PROJECT_DIR$/test/ParkingLotTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="184" />
-    <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="y" value="27" />
+    <option name="width" value="1680" />
+    <option name="height" value="967" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -150,12 +156,7 @@
             <path>
               <item name="bootcampdriverprob" type="b2602c69:ProjectViewProjectNode" />
               <item name="bootcampdriverprob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bootcampdriverprob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootcampdriverprob" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="parkingLotProblem" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,7 +173,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551869508232" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551891326468" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="full.screen.before.presentation.mode" value="true" />
@@ -216,6 +217,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParkingLotTest.doNotNOtifyOnEveryUnpark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootcampdriverprob" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ParkingLotTest" />
+      <option name="METHOD_NAME" value="doNotNOtifyOnEveryUnpark" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParkingLotTest.doNotNotifyAgainLotOwnerIfParkingLotIsFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcampdriverprob" />
       <option name="PACKAGE_NAME" value="" />
@@ -226,31 +237,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingLotTest.doNotNotifyLotOwnerIfParkingLotIsNotFullAndHaveOneCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParkingLotTest.notifyAirportSecurityWhenParkingLotIsFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcampdriverprob" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ParkingLotTest" />
-      <option name="METHOD_NAME" value="doNotNotifyLotOwnerIfParkingLotIsNotFullAndHaveOneCar" />
+      <option name="METHOD_NAME" value="notifyAirportSecurityWhenParkingLotIsFull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingLotTest.doNotifyLotOwnerIfParkingLotIsNotFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParkingLotTest.notifyLotOwnerParkingLotHasSpaceAgain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bootcampdriverprob" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ParkingLotTest" />
-      <option name="METHOD_NAME" value="doNotifyLotOwnerIfParkingLotIsNotFull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkingLotTest.notifyLotOwnerIfParkingLotIsFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bootcampdriverprob" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ParkingLotTest" />
-      <option name="METHOD_NAME" value="notifyLotOwnerIfParkingLotIsFull" />
+      <option name="METHOD_NAME" value="notifyLotOwnerParkingLotHasSpaceAgain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -259,10 +260,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ParkingLotTest" />
+        <item itemvalue="JUnit.ParkingLotTest.notifyAirportSecurityWhenParkingLotIsFull" />
+        <item itemvalue="JUnit.ParkingLotTest.doNotNOtifyOnEveryUnpark" />
+        <item itemvalue="JUnit.ParkingLotTest.notifyLotOwnerParkingLotHasSpaceAgain" />
         <item itemvalue="JUnit.ParkingLotTest.doNotNotifyAgainLotOwnerIfParkingLotIsFull" />
-        <item itemvalue="JUnit.ParkingLotTest.doNotNotifyLotOwnerIfParkingLotIsNotFullAndHaveOneCar" />
-        <item itemvalue="JUnit.ParkingLotTest.doNotifyLotOwnerIfParkingLotIsNotFull" />
-        <item itemvalue="JUnit.ParkingLotTest.notifyLotOwnerIfParkingLotIsFull" />
       </list>
     </recent_temporary>
   </component>
@@ -284,50 +285,49 @@
       <option name="presentableId" value="Default" />
       <updated>1551857426394</updated>
       <workItem from="1551857427646" duration="2964000" />
-      <workItem from="1551864631701" duration="4728000" />
+      <workItem from="1551864631701" duration="11173000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParkingLotTest_getExceptionWhenParkingSlotIsNotAvailable - 2019.03.06 at 15h 02m 53s.xml">
-      <configuration name="ParkingLotTest.getExceptionWhenParkingSlotIsNotAvailable" configurationId="JUnit" />
+    <history-entry file="ParkingLotTest_notifyLotOwnerParkingLotHasSpaceAgain - 2019.03.06 at 16h 40m 20s.xml">
+      <configuration name="ParkingLotTest.notifyLotOwnerParkingLotHasSpaceAgain" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingLotTest_notifyLotOwnerIfParkingLotIsFull - 2019.03.06 at 15h 14m 10s.xml">
-      <configuration name="ParkingLotTest.notifyLotOwnerIfParkingLotIsFull" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParkingLotTest - 2019.03.06 at 15h 36m 36s.xml">
+    <history-entry file="ParkingLotTest - 2019.03.06 at 16h 40m 29s.xml">
       <configuration name="ParkingLotTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingLotTest_doNotifyLotOwnerIfParkingLotIsNotFull - 2019.03.06 at 15h 40m 16s.xml">
-      <configuration name="ParkingLotTest.doNotifyLotOwnerIfParkingLotIsNotFull" configurationId="JUnit" />
+    <history-entry file="ParkingLotTest_doNotNOtifyOnEveryUnpark - 2019.03.06 at 16h 43m 09s.xml">
+      <configuration name="ParkingLotTest.doNotNOtifyOnEveryUnpark" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingLotTest - 2019.03.06 at 15h 52m 48s.xml">
-      <configuration name="ParkingLotTest" configurationId="JUnit" />
+    <history-entry file="ParkingLotTest_doNotNOtifyOnEveryUnpark - 2019.03.06 at 16h 43m 32s.xml">
+      <configuration name="ParkingLotTest.doNotNOtifyOnEveryUnpark" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingLotTest_doNotNotifyLotOwnerIfParkingLotIsNotFullAndHaveOneCar - 2019.03.06 at 15h 57m 40s.xml">
-      <configuration name="ParkingLotTest.doNotNotifyLotOwnerIfParkingLotIsNotFullAndHaveOneCar" configurationId="JUnit" />
+    <history-entry file="ParkingLotTest_doNotNOtifyOnEveryUnpark - 2019.03.06 at 16h 43m 51s.xml">
+      <configuration name="ParkingLotTest.doNotNOtifyOnEveryUnpark" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingLotTest - 2019.03.06 at 15h 57m 45s.xml">
-      <configuration name="ParkingLotTest" configurationId="JUnit" />
+    <history-entry file="ParkingLotTest_doNotNOtifyOnEveryUnpark - 2019.03.06 at 16h 44m 07s.xml">
+      <configuration name="ParkingLotTest.doNotNOtifyOnEveryUnpark" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingLotTest - 2019.03.06 at 16h 09m 49s.xml">
-      <configuration name="ParkingLotTest" configurationId="JUnit" />
+    <history-entry file="ParkingLotTest_notifyAirportSecurityWhenParkingLotIsFull - 2019.03.06 at 16h 53m 31s.xml">
+      <configuration name="ParkingLotTest.notifyAirportSecurityWhenParkingLotIsFull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingLotTest_doNotNotifyAgainLotOwnerIfParkingLotIsFull - 2019.03.06 at 16h 12m 58s.xml">
-      <configuration name="ParkingLotTest.doNotNotifyAgainLotOwnerIfParkingLotIsFull" configurationId="JUnit" />
+    <history-entry file="ParkingLotTest_notifyAirportSecurityWhenParkingLotIsFull - 2019.03.06 at 17h 16m 38s.xml">
+      <configuration name="ParkingLotTest.notifyAirportSecurityWhenParkingLotIsFull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParkingLotTest - 2019.03.06 at 16h 13m 06s.xml">
+    <history-entry file="ParkingLotTest_notifyAirportSecurityWhenParkingLotIsFull - 2019.03.06 at 17h 16m 54s.xml">
+      <configuration name="ParkingLotTest.notifyAirportSecurityWhenParkingLotIsFull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParkingLotTest - 2019.03.06 at 17h 17m 02s.xml">
       <configuration name="ParkingLotTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7692000" />
+    <option name="totallyTimeSpent" value="14137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21672772" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21672772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,17 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LotOwner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding>
-            <element signature="e#61#62#0" expanded="true" />
-            <element signature="e#88#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -423,10 +412,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LotOwner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="e#61#62#0" expanded="true" />
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AirportSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="e#68#69#0" expanded="true" />
+            <element signature="e#95#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ParkingLot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="9" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="239">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -435,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ParkingLotTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="90" column="70" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
+        <state relative-caret-position="-999">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
