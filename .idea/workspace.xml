@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18db6a10-3043-4fe0-8e7c-5fbbbc64462a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AirportSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootcampdriverprob/LotOwner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bootcampdriverprob/LotOwner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bootcampdriverprob/ParkingLot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bootcampdriverprob/ParkingLot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/bootcampdriverprob/ParkingLotTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/bootcampdriverprob/ParkingLotTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingLotProblem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parkingLotProblem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LotOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LotOwner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ParkingLotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ParkingLotTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="18db6a10-3043-4fe0-8e7c-5fbbbc64462a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,7 +163,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551891326468" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551892487306" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="full.screen.before.presentation.mode" value="true" />
@@ -285,7 +275,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551857426394</updated>
       <workItem from="1551857427646" duration="2964000" />
-      <workItem from="1551864631701" duration="11173000" />
+      <workItem from="1551864631701" duration="11566000" />
     </task>
     <servers />
   </component>
@@ -322,7 +312,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14137000" />
+    <option name="totallyTimeSpent" value="14530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
