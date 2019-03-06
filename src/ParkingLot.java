@@ -5,20 +5,25 @@ public class ParkingLot {
 
     private int numberOfSlots;
     private int availableSlots;
+    private LotOwner owner;
     private Map<ParkingLotTicket,Car> ticketCarMapping;
 
-    public ParkingLot(int numberOfSlots) {
+    public ParkingLot(int numberOfSlots, LotOwner owner) {
         this.numberOfSlots = numberOfSlots;
         this.availableSlots = numberOfSlots;
+        this.owner = owner;
         this.ticketCarMapping = new HashMap<>();
     }
 
-    public ParkingLotTicket getParkingSlot(Car car) throws ParkingNotAvailablException {
+    public ParkingLotTicket getParkingSlot(Car car, LotOwner lotOwner) throws ParkingNotAvailablException {
         if(areSlotsUnavailable())
             throw new ParkingNotAvailablException() ;
         car.assignSlot(availableSlots);
         ParkingLotTicket number = new ParkingLotTicket(availableSlots);
         availableSlots--;
+        if(areSlotsUnavailable()){
+            owner.notifyLotIsFull();
+        }
         ticketCarMapping.put(number, car);
         return number;
     }
