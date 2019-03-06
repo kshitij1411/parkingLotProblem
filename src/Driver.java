@@ -4,7 +4,7 @@ public class Driver {
         this.car = car;
     }
 
-    public int parkCar(ParkingLot parkingLot) throws ParkingNotAvailablException {
-        return parkingLot.getParkingSlot();
+    public ParkingLotTicket parkCar(ParkingLot parkingLot) throws ParkingNotAvailablException {
+        return parkingLot.getParkingSlot(car);
     }
 }
