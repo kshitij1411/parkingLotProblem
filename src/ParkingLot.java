@@ -20,7 +20,7 @@ public class ParkingLot {
         this.currentlyOutOfCapacity = false;
     }
 
-    public ParkingLotTicket getParkingSlot(Car car, LotOwner lotOwner) throws ParkingNotAvailablException {
+    public ParkingLotTicket parkTheCar(Car car) throws ParkingNotAvailablException {
         if(areSlotsUnavailable())
             throw new ParkingNotAvailablException() ;
         car.assignSlot(availableSlots);
@@ -50,5 +50,4 @@ public class ParkingLot {
         }
         return car;
     }
-
 }
