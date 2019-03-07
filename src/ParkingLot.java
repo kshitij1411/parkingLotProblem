@@ -9,30 +9,33 @@ public class ParkingLot {
     private AirportSecurity security;
     private Map<ParkingLotTicket,Car> ticketCarMapping;
     boolean currentlyOutOfCapacity;
+    private int id;
 
 
-    public ParkingLot(int numberOfSlots, LotOwner owner, AirportSecurity security) {
+    public ParkingLot(int numberOfSlots, LotOwner owner, AirportSecurity security, int id) {
         this.numberOfSlots = numberOfSlots;
         this.availableSlots = numberOfSlots;
         this.owner = owner;
         this.security = security;
         this.ticketCarMapping = new HashMap<>();
         this.currentlyOutOfCapacity = false;
+        this.id = id;
     }
 
-    public ParkingLotTicket parkTheCar(Car car) throws ParkingNotAvailablException {
+    public ParkingLotTicket parkTheCar(Car car, int lotId) throws ParkingNotAvailablException {
         if(areSlotsUnavailable())
             throw new ParkingNotAvailablException() ;
         car.assignSlot(availableSlots);
-        ParkingLotTicket number = new ParkingLotTicket(availableSlots);
+        ParkingLotTicket ticketNumber = new ParkingLotTicket(availableSlots,this.id);
         availableSlots--;
+        this.availableSlots = availableSlots;
         if(areSlotsUnavailable()){
             owner.notifyLotIsFull();
             security.notifySecurity();
             currentlyOutOfCapacity = true;
         }
-        ticketCarMapping.put(number, car);
-        return number;
+        ticketCarMapping.put(ticketNumber, car);
+        return ticketNumber;
     }
 
     private boolean areSlotsUnavailable() {
@@ -49,5 +52,17 @@ public class ParkingLot {
             owner.notifyLotHasSpace();
         }
         return car;
+    }
+
+    public int getAvailableSlots() {
+        return this.availableSlots;
+    }
+
+    public int getId() {
+        return this.id;
+    }
+
+    public int getFilledSlots() {
+        return this.numberOfSlots - this.availableSlots;
     }
 }
